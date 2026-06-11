@@ -4,7 +4,7 @@ import Cards from './components/cards'
 function App() {
   return (
     <>
-    <div className='h-screen bg-[#F5EFE6]'>
+    <div className='h-screen w-screen bg-[#F5EFE6]'>
     <Navbar/>
   
     <Cards/>
