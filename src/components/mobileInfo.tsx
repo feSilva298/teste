@@ -14,7 +14,7 @@ export function MobileInfo() {
         <Button
           variant="ghost"
           size="icon"
-          className="gap-2 ml-30 mt-10"
+          className="gap-2 ml-25 mt-10"
         >
           <Menu/>
           <p className="">Informações Adicionais</p>

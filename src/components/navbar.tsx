@@ -7,6 +7,8 @@ import zeno from "@/assets/Zeno.png"
 
 import { MobileMenu } from "./mobileMenu"
 
+import { Link } from "react-router-dom"
+
 export default function Navbar() {
     return(
         <>
@@ -19,37 +21,37 @@ export default function Navbar() {
           <NavigationMenuList className="flex gap-4 lg:gap-12 xl:gap-20">                         
             <NavigationMenuItem>
               <NavigationMenuLink>
-                <p className="text-2xl font-semibold hover:scale-105 duration-200">Ocorrências</p>
+                <Link to="/Ocorrencias" className="text-2xl font-semibold hover:scale-105 duration-200">Ocorrências</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
               <NavigationMenuLink>
-                <p className="text-2xl font-semibold hover:scale-105 duration-200">Rede Neural</p>
+                <Link to="/Rede Neural" className="text-2xl font-semibold hover:scale-105 duration-200">Rede Neural</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
               <NavigationMenuLink>
-                <p className="text-2xl font-semibold hover:scale-105 duration-200">Rotas</p> 
+                <Link to="/Rotas" className="text-2xl font-semibold hover:scale-105 duration-200">Rotas</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
               <NavigationMenuLink>
-                <p className="text-2xl font-semibold hover:scale-105 duration-200">Equipe</p> 
+                <Link to="/Equipe" className="text-2xl font-semibold hover:scale-105 duration-200">Equipe</Link> 
               </NavigationMenuLink>
                 </NavigationMenuItem>
 
             <NavigationMenuItem>
               <NavigationMenuLink>
-                <p className="text-2xl font-semibold hover:scale-105 duration-200">Atendimento</p>
+                <Link to="/Atendimento" className="text-2xl font-semibold hover:scale-105 duration-200">Atendimento</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
               <NavigationMenuLink>
-                <p className="text-2xl font-semibold hover:scale-105 duration-200">Serviços Adicionais</p>
+                <Link to="/Servicos adicionais" className="text-2xl font-semibold hover:scale-105 duration-200">Serviços Adicionais</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
             </NavigationMenuList>

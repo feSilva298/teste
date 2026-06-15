@@ -1,22 +1,28 @@
 import './App.css'
 import Navbar from './components/navbar'
-import Cards from './components/cards'
-import CardsLaterais from './components/cardsLateral'
-import { MobileInfo } from './components/mobileInfo'
+import { Route, Routes } from 'react-router-dom'
+import Rotas from './pages/rotas'
+import Ocorrencias from './pages/ocorrencias'
+import RedeNeural from './pages/redeneural'
+import Equipe from './pages/equipe'
+import Atendimento from './pages/atendimento'
+import ServicosAdicionais from './pages/servicos'
 
 function App() {
   return (
     <>
-    <div className='h-full w-full bg-[#F5EFE6]'>
     <Navbar/>
-    <Cards/>
-    <div className='hidden xl:flex'>
-      <CardsLaterais/>
-    </div>
-    <div className='xl:hidden'>
-      <MobileInfo/>
-    </div>
-    </div>
+      <body className='bg-[#F5EFE6]'>
+        <Routes>
+          <Route path="/" element={<Ocorrencias/>}/>
+          <Route path="/Ocorrencias" element={<Ocorrencias/>}/>
+          <Route path='/Rotas' element={<Rotas/>}/>
+          <Route path='/Rede neural' element={<RedeNeural/>}/>
+          <Route path='/Equipe' element={<Equipe/>}/>
+          <Route path='/Atendimento' element={<Atendimento/>}/>
+          <Route path='/Servicos adicionais' element={<ServicosAdicionais/>}/>
+        </Routes>
+        </body>
     </>
   )
 }

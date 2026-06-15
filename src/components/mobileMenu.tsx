@@ -21,12 +21,12 @@ export function MobileMenu() {
 
       <SheetContent side="right" className="bg-white">
         <nav className="mt-8 flex flex-col gap-4 p-6">
-          <a href="/">Ocorrências</a>
-          <a href="/dashboard">Rede Neural</a>
-          <a href="/relatorios">Rotas</a>
-          <a href="/relatorios">Equipe</a>
-          <a href="/relatorios">Atendimento</a>
-          <a href="/relatorios">Serviços Adicionais</a>
+          <a href="#">Ocorrências</a>
+          <a href="#">Rede Neural</a>
+          <a href="#">Rotas</a>
+          <a href="#">Equipe</a>
+          <a href="#">Atendimento</a>
+          <a href="#">Serviços Adicionais</a>
         </nav>
       </SheetContent>
     </Sheet>
