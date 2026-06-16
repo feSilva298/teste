@@ -2,11 +2,12 @@ import './App.css'
 import Navbar from './components/navbar'
 import { Route, Routes } from 'react-router-dom'
 import Rotas from './pages/rotas'
-import Ocorrencias from './pages/ocorrencias'
+import Home from './pages/home'
 import RedeNeural from './pages/redeneural'
 import Equipe from './pages/equipe'
 import Atendimento from './pages/atendimento'
 import ServicosAdicionais from './pages/servicos'
+import Ocorrencias from './pages/ocorrencias'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
     <Navbar/>
       <body className='bg-[#F5EFE6]'>
         <Routes>
-          <Route path="/" element={<Ocorrencias/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/Ocorrencias" element={<Ocorrencias/>}/>
           <Route path='/Rotas' element={<Rotas/>}/>
           <Route path='/Rede neural' element={<RedeNeural/>}/>

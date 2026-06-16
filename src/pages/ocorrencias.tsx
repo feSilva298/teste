@@ -1,24 +1,7 @@
-import Cards from '@/components/cards'
-import CardsLaterais from '@/components/cardsLateral'
-import { MobileInfo } from '@/components/mobileInfo'
-import Mapa from '@/components/mapa'
-
-
-
 export default function Ocorrencias(){
     return(
         <>
-        <div className='h-full w-full'>
-            <Cards/>
-        <div className='hidden xl:flex'>
-            <CardsLaterais/>
-            <Mapa/>
-        </div>
-        <div className='xl:hidden'>
-            <MobileInfo/>
-            <Mapa/>
-        </div>
-        </div>
+        <h1 className="text-4xl">Pagina de Ocorrencias, esta em construção 🏗️🔨🚧👷👷‍♂️👷‍♀️</h1>
         </>
     )
 }

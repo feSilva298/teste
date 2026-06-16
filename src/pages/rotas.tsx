@@ -1,7 +1,15 @@
+import CardSuperiorRotas from "@/components/cardSrotas"
+import Mapa from "@/components/mapa"
+import CardinferiorRotas from "@/components/cardInfRotas"
+
 export default function Rotas(){
     return(
         <>
-        <h1 className="text-4xl">Pagina de rotas, esta em construção 🏗️🔨🚧👷👷‍♂️👷‍♀️</h1>
+        <div className="flex flex-col justify-center items-center">
+        <CardSuperiorRotas/>
+        <Mapa/>
+        <CardinferiorRotas/>
+        </div>
         </>
     )
 }

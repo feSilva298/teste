@@ -14,7 +14,7 @@ export default function Navbar() {
         <>
 
         <div className="flex h-20 md:h-30 w-full items-center justify-around border-2 bg-linear-to-r from-red-300 to-orange-300">
-              <img src={zeno} className="h-40 w-40 mt-4 md:h-70 md:w-70"></img>
+              <Link to="/"><img src={zeno} className="h-40 w-40 mt-4 md:h-70 md:w-70"></img></Link>
             <p className="hidden md:block font-extrabold">|</p>
 
            <NavigationMenu className="hidden xl:flex">
