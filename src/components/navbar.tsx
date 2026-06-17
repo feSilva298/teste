@@ -3,6 +3,8 @@ import { NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
   } from "./ui/navigation-menu"
+import { Separator } from "@/components/ui/separator"
+
 import zeno from "@/assets/Zeno.png"
 
 import { MobileMenu } from "./mobileMenu"
@@ -13,10 +15,11 @@ export default function Navbar() {
     return(
         <>
 
-        <div className="flex h-20 md:h-30 w-full items-center justify-around border-2 bg-linear-to-r from-red-300 to-orange-300">
+        <div className="flex h-20 md:h-30 w-full items-center justify-around border bg-linear-to-r from-red-300 to-orange-300">
               <Link to="/"><img src={zeno} className="h-40 w-40 mt-4 md:h-70 md:w-70"></img></Link>
-            <p className="hidden md:block font-extrabold">|</p>
-
+            <div className="flex items-center">
+              <Separator className="hidden md:block font-extrabold bg-black h-15" orientation="vertical"/>
+            </div>
            <NavigationMenu className="hidden xl:flex">
           <NavigationMenuList className="flex gap-4 lg:gap-12 xl:gap-20">                         
             <NavigationMenuItem>

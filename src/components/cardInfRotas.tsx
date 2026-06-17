@@ -4,7 +4,7 @@ export default function CardinferiorRotas(){
     return(
     <>
    <div className="mt-5 flex justify-center px-4">
-  <div className="border-2 bg-white px-4 py-4">
+  <div className="border bg-white px-4 py-4">
 
     <div className="mb-6 flex">
       <p className="text-xl font-bold md:text-2xl">
@@ -81,7 +81,6 @@ export default function CardinferiorRotas(){
           <p className="font-semibold">14.64s</p>
         </div>
       </div>
-
     </div>
   </div>
 </div>

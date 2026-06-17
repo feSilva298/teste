@@ -1,7 +1,13 @@
+import CardOcorrencias from "@/components/cardsOcorrencias"
+import DetalhesOcorrencia from "@/components/detalhesOcorr"
+
 export default function Ocorrencias(){
     return(
         <>
-        <h1 className="text-4xl">Pagina de Ocorrencias, esta em construção 🏗️🔨🚧👷👷‍♂️👷‍♀️</h1>
+        <div className="flex justify-around">
+        <CardOcorrencias/>
+        <DetalhesOcorrencia/>
+        </div>
         </>
     )
 }

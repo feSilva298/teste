@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Navbar/>
-      <body className='bg-[#F5EFE6]'>
+      <body className='bg-[#F5EFE6] '>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Ocorrencias" element={<Ocorrencias/>}/>

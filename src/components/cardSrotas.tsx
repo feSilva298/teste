@@ -6,9 +6,9 @@ export default function CardSuperiorRotas(){
         <>
         
       <div className="flex justify-center items-center mt-10">
-        <div className="flex justify-around items-center gap-150 p-4 border-2 bg-[#DE5656] w-350 ">
+        <div className="flex justify-around items-center gap-150 p-4 border bg-[#DE5656] w-350 ">
             <div className="flex gap-4 items-center">
-                <Flame className="h-20 w-20 bg-white rounded-full p-2 border-2" />
+                <Flame className="h-20 w-20 bg-white rounded-full p-2 border" />
                 <div className="flex flex-col">
                 <p className="text-xl font-bold md:text-2xl text-white">
                     Incêndio severo                      
@@ -19,7 +19,7 @@ export default function CardSuperiorRotas(){
                 </div>
             </div>
             <div className="flex items-center justify-center">
-                <Button className="bg-white border-2 border-black rounded-none shadow-xl p-6">
+                <Button className="bg-white border border-black rounded-none shadow-xl p-6">
                     <Info className="h-10 w-10"/>
                     <p className="text-xl font-light">Detalhes da Ocorrência</p>
                     </Button>
