@@ -12,8 +12,8 @@ import Ocorrencias from './pages/ocorrencias'
 function App() {
   return (
     <>
-    <Navbar/>
       <body className='bg-[#F5EFE6] '>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Ocorrencias" element={<Ocorrencias/>}/>

@@ -15,17 +15,17 @@ export default function Cards() {
 
         <div className="flex justify-center gap-12 md:gap-20 text-2xl">
           <div className="flex flex-col items-center">
-            <p className="text-red-600 text-2xl md:text-4xl font-bold">4</p>
+            <p className="text-red-600 text-4xl font-bold">4</p>
             <p className="text-lg text-red-600 md:text-xl font-semibold">Graves</p>
           </div>
 
           <div className="flex flex-col items-center">
-            <p className="text-orange-600 text-4xl md:text-4xlxl font-bold">9</p>
+            <p className="text-orange-600 text-4xl font-bold">9</p>
             <p className="text-lg text-orange-600 md:text-xl font-semibold">Médias</p>
           </div>
 
           <div className="flex flex-col items-center">
-            <p className="text-green-600 text-4xl md:text-4xl font-bold">17</p>
+            <p className="text-green-600 text-4xl font-bold">17</p>
             <p className="text-lg text-green-600 md:text-xl font-semibold">Leves</p>
           </div>
         </div>
